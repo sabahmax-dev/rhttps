@@ -6,7 +6,7 @@ chrome 浏览器内置翻译已经很久不能用了，常规的改 hosts 需要
 
 ## 使用方法
 
-1. 用命令在本地启动程序 `rhttps.exe -listen 127.99.99.99:443 -proxy socks5://127.0.0.1:1080`, 代理地址改成你自己的
+1. 用命令在本地启动程序 `rhttps.exe -listen 127.99.99.99:443 -proxy socks5://127.0.0.1:1080`, 代理地址改成你自己的，`-listen` 的 IP 需要和 hosts 保持一致
 
 2. 修改 `C:\Windows\System32\drivers\etc\hosts`, 增加如下内容
 
